@@ -6,7 +6,7 @@ import com.cat.code.job.admin.core.model.XxlJobInfo;
 import com.cat.code.job.admin.core.model.XxlJobLog;
 import com.cat.code.job.admin.core.trigger.TriggerTypeEnum;
 import com.cat.code.job.admin.core.util.I18nUtil;
-import com.cat.code.job.core.biz.model.ReturnT;
+import com.xxl.job.core.biz.model.ReturnT;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.mail.javamail.MimeMessageHelper;

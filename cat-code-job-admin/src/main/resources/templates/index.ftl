@@ -105,7 +105,7 @@
                                 <button type="button" class="btn btn-primary btn-sm daterange pull-right" data-toggle="tooltip" id="filterTime" >
                                     <i class="fa fa-calendar"></i>
                                 </button>
-                                <#--<button type="button" class="btn btn-mappers btn-sm pull-right" data-widget="collapse" data-toggle="tooltip" title="" style="margin-right: 5px;" data-original-title="Collapse">
+                                <#--<button type="button" class="btn btn-primary btn-sm pull-right" data-widget="collapse" data-toggle="tooltip" title="" style="margin-right: 5px;" data-original-title="Collapse">
                                     <i class="fa fa-minus"></i>
                                 </button>-->
                             </div>

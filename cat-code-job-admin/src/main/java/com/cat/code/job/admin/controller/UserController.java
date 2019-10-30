@@ -7,7 +7,7 @@ import com.cat.code.job.admin.core.util.I18nUtil;
 import com.cat.code.job.admin.dao.XxlJobGroupDao;
 import com.cat.code.job.admin.dao.XxlJobUserDao;
 import com.cat.code.job.admin.service.LoginService;
-import com.cat.code.job.core.biz.model.ReturnT;
+import com.xxl.job.core.biz.model.ReturnT;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.DigestUtils;

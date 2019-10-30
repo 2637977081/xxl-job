@@ -4,7 +4,7 @@ package com.cat.code.job.admin.controller;
 import com.cat.code.job.admin.controller.annotation.PermissionLimit;
 import com.cat.code.job.admin.service.LoginService;
 import com.cat.code.job.admin.service.XxlJobService;
-import com.cat.code.job.core.biz.model.ReturnT;
+import com.xxl.job.core.biz.model.ReturnT;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -3,7 +3,7 @@ package com.cat.code.job.admin.service;
 
 
 import com.cat.code.job.admin.core.model.XxlJobInfo;
-import com.cat.code.job.core.biz.model.ReturnT;
+import com.xxl.job.core.biz.model.ReturnT;
 
 import java.util.Date;
 import java.util.Map;

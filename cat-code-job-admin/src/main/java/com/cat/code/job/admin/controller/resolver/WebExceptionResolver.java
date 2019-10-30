@@ -3,7 +3,7 @@ package com.cat.code.job.admin.controller.resolver;
 
 import com.cat.code.job.admin.core.exception.XxlJobException;
 import com.cat.code.job.admin.core.util.JacksonUtil;
-import com.cat.code.job.core.biz.model.ReturnT;
+import com.xxl.job.core.biz.model.ReturnT;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

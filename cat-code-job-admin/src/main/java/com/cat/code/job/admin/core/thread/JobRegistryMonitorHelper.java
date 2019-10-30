@@ -3,7 +3,7 @@ package com.cat.code.job.admin.core.thread;
 import com.cat.code.job.admin.core.conf.XxlJobAdminConfig;
 import com.cat.code.job.admin.core.model.XxlJobGroup;
 import com.cat.code.job.admin.core.model.XxlJobRegistry;
-import com.cat.code.job.core.enums.RegistryConfig;
+import com.xxl.job.core.enums.RegistryConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

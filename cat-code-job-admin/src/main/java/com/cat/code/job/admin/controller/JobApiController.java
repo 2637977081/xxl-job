@@ -2,7 +2,7 @@ package com.cat.code.job.admin.controller;
 
 import com.cat.code.job.admin.controller.annotation.PermissionLimit;
 import com.cat.code.job.admin.core.conf.XxlJobScheduler;
-import com.cat.code.job.core.biz.AdminBiz;
+import com.xxl.job.core.biz.AdminBiz;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

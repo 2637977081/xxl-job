@@ -5,9 +5,9 @@ package com.cat.code.job.admin.core.route.strategy;
 import com.cat.code.job.admin.core.conf.XxlJobScheduler;
 import com.cat.code.job.admin.core.route.ExecutorRouter;
 import com.cat.code.job.admin.core.util.I18nUtil;
-import com.cat.code.job.core.biz.ExecutorBiz;
-import com.cat.code.job.core.biz.model.ReturnT;
-import com.cat.code.job.core.biz.model.TriggerParam;
+import com.xxl.job.core.biz.ExecutorBiz;
+import com.xxl.job.core.biz.model.ReturnT;
+import com.xxl.job.core.biz.model.TriggerParam;
 
 import java.util.List;
 

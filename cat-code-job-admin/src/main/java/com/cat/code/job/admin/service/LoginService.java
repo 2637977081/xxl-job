@@ -5,7 +5,7 @@ import com.cat.code.job.admin.core.util.CookieUtil;
 import com.cat.code.job.admin.core.util.I18nUtil;
 import com.cat.code.job.admin.core.util.JacksonUtil;
 import com.cat.code.job.admin.dao.XxlJobUserDao;
-import com.cat.code.job.core.biz.model.ReturnT;
+import com.xxl.job.core.biz.model.ReturnT;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.util.DigestUtils;
 

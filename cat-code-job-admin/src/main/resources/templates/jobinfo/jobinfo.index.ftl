@@ -194,9 +194,9 @@
 <textarea class="glueSource_java" style="display:none;" >
 package com.xxl.job.service.handler;
 
-import com.xxl.job.com.golaxy.crawler.core.log.XxlJobLogger;
-import com.xxl.job.com.golaxy.crawler.core.biz.model.ReturnT;
-import com.xxl.job.com.golaxy.crawler.core.handler.IJobHandler;
+import com.xxl.job.core.log.XxlJobLogger;
+import com.xxl.job.core.biz.model.ReturnT;
+import com.xxl.job.core.handler.IJobHandler;
 
 public class DemoGlueJobHandler extends IJobHandler {
 
@@ -427,6 +427,8 @@ exit 0
 <script src="${request.contextPath}/static/adminlte/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
 <!-- moment -->
 <script src="${request.contextPath}/static/adminlte/bower_components/moment/moment.min.js"></script>
+<#-- cronGen -->
+<script src="${request.contextPath}/static/plugins/cronGen/cronGen<#if I18n.admin_i18n?default('')?length gt 0 >_${I18n.admin_i18n}</#if>.js"></script>
 <script src="${request.contextPath}/static/js/jobinfo.index.1.js"></script>
 </body>
 </html>

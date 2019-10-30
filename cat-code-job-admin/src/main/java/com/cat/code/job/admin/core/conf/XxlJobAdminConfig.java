@@ -5,7 +5,7 @@ import com.cat.code.job.admin.dao.XxlJobGroupDao;
 import com.cat.code.job.admin.dao.XxlJobInfoDao;
 import com.cat.code.job.admin.dao.XxlJobLogDao;
 import com.cat.code.job.admin.dao.XxlJobRegistryDao;
-import com.cat.code.job.core.biz.AdminBiz;
+import com.xxl.job.core.biz.AdminBiz;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.javamail.JavaMailSender;

@@ -4487,7 +4487,7 @@
   // Selection objects are immutable. A new one is created every time
   // the selection changes. A selection is one or more non-overlapping
   // (and non-touching) ranges, sorted, and an integer that indicates
-  // which one is the mappers selection (the one that's scrolled into
+  // which one is the primary selection (the one that's scrolled into
   // view, that getCursor returns, etc).
   var Selection = function(ranges, primIndex) {
     this.ranges = ranges;
@@ -4991,7 +4991,7 @@
     }
   }
 
-  // Extend the mappers selection range, discard the rest.
+  // Extend the primary selection range, discard the rest.
   function extendSelection(doc, head, other, options, extend) {
     if (extend == null) { extend = doc.cm && (doc.cm.display.shift || doc.extend); }
     setSelection(doc, new Selection([extendRange(doc.sel.primary(), head, other, extend)], 0), options);

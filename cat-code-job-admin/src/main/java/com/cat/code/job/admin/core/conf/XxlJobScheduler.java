@@ -1,14 +1,15 @@
 package com.cat.code.job.admin.core.conf;
 
 
+
 import com.cat.code.job.admin.core.thread.JobFailMonitorHelper;
 import com.cat.code.job.admin.core.thread.JobRegistryMonitorHelper;
 import com.cat.code.job.admin.core.thread.JobScheduleHelper;
 import com.cat.code.job.admin.core.thread.JobTriggerPoolHelper;
 import com.cat.code.job.admin.core.util.I18nUtil;
-import com.cat.code.job.core.biz.AdminBiz;
-import com.cat.code.job.core.biz.ExecutorBiz;
-import com.cat.code.job.core.enums.ExecutorBlockStrategyEnum;
+import com.xxl.job.core.biz.AdminBiz;
+import com.xxl.job.core.biz.ExecutorBiz;
+import com.xxl.job.core.enums.ExecutorBlockStrategyEnum;
 import com.xxl.rpc.remoting.invoker.XxlRpcInvokerFactory;
 import com.xxl.rpc.remoting.invoker.call.CallType;
 import com.xxl.rpc.remoting.invoker.reference.XxlRpcReferenceBean;
@@ -21,6 +22,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.context.annotation.DependsOn;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.ServletException;
@@ -34,6 +36,7 @@ import java.util.concurrent.ConcurrentMap;
  * @author xuxueli 2018-10-28 00:18:17
  */
 @Component
+@DependsOn("xxlJobAdminConfig")
 public class XxlJobScheduler implements InitializingBean, DisposableBean {
     private static final Logger logger = LoggerFactory.getLogger(XxlJobScheduler.class);
 
